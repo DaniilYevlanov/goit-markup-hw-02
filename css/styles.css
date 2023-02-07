@@ -16,7 +16,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--text-ptimary-clr);
-
 }
 
 /* header */
@@ -29,6 +28,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--dark-clr);
+    letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -48,7 +48,8 @@ color: var(--pressed-state-clr);
 text-decoration: none;
 color:var(--text-ptimary-clr);
 font-weight: 400;
-font-style: none;
+font-style: normal;
+letter-spacing: 0.02em;
 }
 .adress:hover,
 .adress:focus {
@@ -60,17 +61,19 @@ font-style: none;
  }
 
  /*Hero*/
+ .txt-about{
+   letter-spacing: 0.02em;
+ }
 
  .hero {
     background-color: var(--dark-clr);
  }
 
  .hero-title{
-    color: #fff;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    color: var(--background-primary);
     font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
  }
  
  .hero-btn {
@@ -96,6 +99,7 @@ font-style: none;
      font-size: 20px;
      line-height: 1.2;
      color: var(--dark-clr);
+     letter-spacing: 0.02em;
  }
 
  /* What are we doing */
@@ -106,6 +110,7 @@ font-style: none;
     line-height: 1.11;
     text-transform: capitalize;
     color: var(--dark-clr);
+    letter-spacing: 0.02em;
  }
 
  /* Our team */
@@ -130,6 +135,7 @@ font-style: none;
  
  .footer-txt{
     color: var(--accent-clr);
+    letter-spacing: 0.02em;
  }
 
  /*Portfolio*/
