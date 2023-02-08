@@ -33,11 +33,13 @@ body {
 
 .logo-web {
     color: var(--primary-brand-clr);
+    letter-spacing: 0.03em;
 }
 .nav-link {
     font-weight: 500;
     color: var(--dark-clr);
-    text-decoration: none
+    text-decoration: none;   
+     letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -47,7 +49,6 @@ color: var(--pressed-state-clr);
 .adress {
 text-decoration: none;
 color:var(--text-ptimary-clr);
-font-weight: 400;
 font-style: normal;
 letter-spacing: 0.02em;
 }
@@ -61,7 +62,7 @@ letter-spacing: 0.02em;
  }
 
  /*Hero*/
- .txt-about{
+ .section-txt-aout{
    letter-spacing: 0.02em;
  }
 
